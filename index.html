@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Ebac</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário Ebac</h1>
+        <form id="formulario">
+            <input type="number" required placeholder="Numero-A" id="numero-A">
+            <div class="numero2">
+                <input type="number" required placeholder="Numero-B" id="numero-B">
+            </div>
+            <div class="btn">
+                <button id="enviar" type="submit">Enviar</button>
+            </div>
+            <p class="msg-formulario">
+                Tudo certo! Formulário enviado.
+            </p>
+            <p class="msg-erro">
+                Erro: O número B deve ser maior que o número A .
+            </p>
+            <script src="./scrypt.js"></script>
+        </form>
+    </div>
+</body>
+
+</html>
