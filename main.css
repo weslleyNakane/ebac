@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    background-image: url(./img/caderno-em-branco-pautado-em-uma-mesa-de-madeira_53876-123153.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+input {
+    padding: 5px;
+    margin-top: 16px;
+}
+
+button {
+    padding: 5px;
+}
+
+ul {
+    margin-top: 16px;
+}
